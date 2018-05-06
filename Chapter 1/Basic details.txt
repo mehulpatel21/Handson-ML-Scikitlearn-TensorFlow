@@ -1,0 +1,62 @@
+Type of Machine Learning based on the type of data that is provided to the model/algorithm.
+    1. Supervised Learning
+    2. Unsupervised Learning
+    3. Semi-supervised Learning
+    4. Batch vs Online learning
+    5. Instance based learning vs model-based learning
+    6. Reinforcement learning
+
+Supervised Learning:
+    K-nearest neighbor
+    Linear regression
+    Logistic regression
+    Support vector machines (SVM)
+    Decision trees and random forests
+
+Unsupervised Learning:
+    Clustering
+        K-means clustering
+        Hierarchical clustering analysis (HCA)
+        Expectation Maximization
+    Visualization and Dimensionality reduction
+        Principal component analysis (PCA)
+        Kernel PCA
+        Locally-linear embedding (LLE)
+        t-distributed Stochastic neighbor embedding (tSNE)
+    Association rule learning
+        Apriori
+        Eclat
+    Dimensionality Reduction (Task rather than a type of learning)
+        Feature extraction
+    Anomaly detection (Task)
+
+Semi-supervised learning:
+    Deep Belief Networks (based on Restricted Boltzmann machines(RBM)) stacked on top of each other
+
+Reinforcement Learning:
+    Agent learns based on policy and updates policy as it learns new things or about existing things in a new way.
+
+Batch Learning:
+    Incapable of learning incrementally, needs a lot of compute power and needs to be trained on full set of data,
+    every time you have new sets of data. (called offline learning)
+
+Online learning:
+    Train system incrementally by feeding small set of data called mini-batches sequentially.
+    Online learning algorithms can be used to train systems on huge datasets that can't be fit into one machine's
+    main memory (out-of-core-learning). It loads small set of data, trains the algo/system and then repeats the process
+    until it has run on entire dataset.
+
+Generalization approaches:
+    Instance based learning
+        The system learns the examples by heart, then generalizes to new cases using a similarity measure.
+    Model based learning
+        Another way to generalize from a set of examples is to build a model of these examples and
+        then use that model to make predictions.
+
+Main challenges of Machine Learning:
+    Insufficient quantity of training data
+    Poor quality data
+    Irrelevant features
+    Non-representative training data
+    Overfitting
+    Underfitting
